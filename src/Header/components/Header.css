@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: calc(7px + 2vmin);
+    padding-top: 20px;
+    padding-bottom: 35px;
+    background-color: black;
+    padding-left:20px;
+    color: white;
+}
+img {
+    height: 40px;
+}
+
+@media all and (max-width: 800px) {
+    .header {
+        justify-content: center;
+    }
+    img {
+        height: 30px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .header {
+        flex-direction: column;
+    }
+    img {
+        height: 20px;
+    }
+}

@@ -1,0 +1,16 @@
+svg{
+    padding-top:20px;
+}
+.label {
+    font-size: 16px;
+}
+.tick-bottom:nth-child(n) text {
+    visibility: hidden;
+}
+.tick-bottom:nth-child(4n+1) text {
+    visibility: visible;
+}
+
+.tick-left:last-of-type text {
+    visibility: hidden;
+}

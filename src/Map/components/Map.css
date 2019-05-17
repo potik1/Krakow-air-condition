@@ -1,0 +1,37 @@
+.Map {
+    display: flex;
+    height: 910px;
+    border: 4px solid white;
+}
+.wrapper {
+    position:relative;
+}
+#loader {
+    z-index: 1000;
+    border: 12px solid #394585;
+    border-radius: 50%;
+    height: 100px;
+    left: 50%;
+    margin: -50px 0 0 -50px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    animation: pulsate 1s ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(.1);
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+

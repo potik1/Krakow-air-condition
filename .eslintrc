@@ -1,0 +1,28 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "react/forbid-prop-types": [2, {
+      "forbid": ["any", "array"]
+    }],
+    "max-len": [0, 120, 2, {"ignoreComments": true}],
+    "func-names": ["error", "always", { "generators": "never" }],
+    "import/no-cycle": 0,
+    "no-useless-computed-key": 0,
+    "no-prototype-builtins": 0,
+    "object-curly-newline": 0,
+    "no-use-before-define": 0,
+    "no-restricted-syntax": 0,
+    "import/prefer-default-export": 0,
+    "no-unused-expressions": 0,
+    "react/prefer-stateless-function": 0,
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    "react/prop-types" : [2, { "ignore": ["children"] }]
+  }
+}

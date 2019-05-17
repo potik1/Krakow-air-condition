@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    font-size: calc(3px + 2vmin);
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+@media all and (max-width: 800px) {
+    .footer {
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .footer {
+        flex-direction: column;
+    }
+}
