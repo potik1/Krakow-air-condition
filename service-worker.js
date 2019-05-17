@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Krakow-air-condition/precache-manifest.f0a20156550ada254ae8a847d460cdfb.js"
+  "/Krakow-air-condition/precache-manifest.cc8d34e05bb929945fc1d1be950c5a22.js"
 );
 
 workbox.clientsClaim();

@@ -8,23 +8,23 @@ self.__precacheManifest = [
     "url": "/Krakow-air-condition/static/js/runtime~main.ae7f114b.js"
   },
   {
-    "revision": "da8b9db6ddd2a235734c",
-    "url": "/Krakow-air-condition/static/js/main.da8b9db6.chunk.js"
+    "revision": "4ee78843f67af6d6569d",
+    "url": "/Krakow-air-condition/static/js/main.4ee78843.chunk.js"
   },
   {
     "revision": "d25657e93ba5e9c40222",
     "url": "/Krakow-air-condition/static/js/1.d25657e9.chunk.js"
   },
   {
-    "revision": "da8b9db6ddd2a235734c",
-    "url": "/Krakow-air-condition/static/css/main.21e1cafd.chunk.css"
+    "revision": "4ee78843f67af6d6569d",
+    "url": "/Krakow-air-condition/static/css/main.9bb8ac27.chunk.css"
   },
   {
     "revision": "d25657e93ba5e9c40222",
     "url": "/Krakow-air-condition/static/css/1.2f700c60.chunk.css"
   },
   {
-    "revision": "833748d533f4bd2fb9506640e6898ea1",
+    "revision": "89046c4b6ec848ba752457dcbaed26f0",
     "url": "/Krakow-air-condition/index.html"
   }
 ];
